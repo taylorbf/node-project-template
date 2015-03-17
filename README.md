@@ -9,8 +9,8 @@
 
 ## How to use
 
-Download this template and type 'npm install' in terminal in the project folder. 
+Download this template and type `npm install` in terminal in the project folder. 
 
-Then run 'gulp' to compile and create a dist. Notice that 'gulp' creates a few new folders including '/dist' with the compiled library, and '/api' with an API website built with JSDoc3. The API is compiled from comments in the JS.
+Then run `gulp` to compile and create a dist. Notice that `gulp` creates a few new folders including `/dist` with the compiled library, and `/api` with an API website built with JSDoc3. The API is compiled from comments in the JS.
 
 
