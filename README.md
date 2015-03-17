@@ -1,14 +1,16 @@
-# McLuhan.js
+# Node Module Project Template
 
 **Author:** Ben Taylor
 
-**Overview:** A platform for live web art performance in remote browsers.
+**Overview:** A place to start when making a JS module using gulp and browserify
 
-**Project Site:** http://www.whitechord.org
-
-**License:** McLuhan.js is licensed as open source software under the terms of the "New BSD License", http://creativecommons.org/licenses/BSD/
+**License:** My projects are usually licensed as open source software under the terms of the "New BSD License", http://creativecommons.org/licenses/BSD/
 
 
-### About
+## How to use
 
-McLuhan.js is under heavy development and will be released later in 2015.
+Download this template and type 'npm install' in terminal in the project folder. 
+
+Then run 'gulp' to compile and create a dist. Notice that 'gulp' creates a few new folders including '/dist' with the compiled library, and '/api' with an API website built with JSDoc3. The API is compiled from comments in the JS.
+
+

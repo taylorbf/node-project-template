@@ -46,5 +46,3 @@ gulp.task('jsdoc', function() {
 gulp.task('default', function(done) {
   runSequence('browserify','jsdoc', done)
 })
-
-
