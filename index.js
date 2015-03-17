@@ -12,21 +12,12 @@
 ************************************************/
 
 
-// You can make modules of variables, objects, or constructor functions
+// Loading a module. These modules can be anything: variables, objects, functions,
+//  or constructor functions
 
 var Manager = require('./lib/core/manager');
 
-console.log(Manager)
-
-
-
-
-
-
-
-
-
-
+var m = new Manager();
 
 
 
