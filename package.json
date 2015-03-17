@@ -1,0 +1,28 @@
+{
+  "name": "Template.js",
+  "description": "Template for node modules and node projects.",
+  "author": "Ben Taylor <taylorbf@gmail.com>",
+  "repository" : { 
+    "type" : "git",
+    "url" : "http://github.com/taylorbf/node-project-template/"
+  },
+  "dependencies": {
+    "tone": "0.4.x",
+    "nexusui": "1.0.x"
+  },
+  "devDependencies": {
+    "gulp": "3.8.x",
+    "gulp-rename": "1.2.x",
+    "gulp-uglify": "0.2.x",
+    "gulp-less": "1.2.x",
+    "gulp-util": "3.0.x",
+    "browserify": "5.12.x",
+    "run-sequence": "0.3.x",
+    "eventemitter2": "0.4.x",
+    "vinyl-source-stream": "1.0.x",
+    "gulp-jsdoc": "^0.1.4"
+  },
+  "engine": "node >= 0.10.0",
+  "version": "0.0.1",
+  "license": "New BSD License"
+}
