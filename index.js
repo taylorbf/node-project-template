@@ -1,27 +1,64 @@
-var Manager = require('./lib/core/manager');
-var FilmManager = require('./lib/media/film');
-var math = require('./lib/utils/math');
-var extend = require('extend');
-require('nexusui');
-window._ = require("underscore")
+/** 
+  @title Template.js
+  @overview A template for modular node projects
+  @author Ben Taylor
+  @copyright &copy; 2015
+  @license MIT
+ */ 
 
 
 /************************************************
-*      MAKE GLOBAL COMPONENTS + INSTANCES
+*  THE CODE THAT WILL INITIALIZE YOUR PROJECT	*
 ************************************************/
 
-window.m = new Manager(); 
-window._spaces = new Array();
-window.spaces = new Array();
-window.windex = 0;
-window.walls = new Array();
-window.journal = { "hello": "Hello Digital World" }
 
-window.components = require("./lib/media")
-for (var key in window.components) {
-	window[key] = window.components[key]
-}
+// You can make modules of variables, objects, or constructor functions
 
+var Manager = require('./lib/core/manager');
+
+console.log(Manager)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Look into the utils/math file. It's a different setup. This lets you export
+// lots of functions bundled as one exported object.
+
+var MyMath = require('./lib/utils/math');
+
+console.log(MyMath)
+
+
+
+
+
+
+
+/* also a good place for your window.onload function if needed */
 window.onload = function() {
-   m.init();
+	//Manager.init() maybe
 };
+
+
+
+
+/* A library like Tone might use this space to export the Tone object!
+module.exports = new ToneConstructorFunc() { .......... }
+
+
+Then I, as a user, can  require Tone as a module,
+just like I required Manager up above.
+
+var Tone = require('Tone')
+
+*/

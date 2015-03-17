@@ -20,6 +20,7 @@
     "run-sequence": "0.3.x",
     "eventemitter2": "0.4.x",
     "vinyl-source-stream": "1.0.x",
+    "extend": "2.0.x",
     "gulp-jsdoc": "^0.1.4"
   },
   "engine": "node >= 0.10.0",
